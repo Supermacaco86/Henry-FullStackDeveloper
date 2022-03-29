@@ -1,0 +1,14 @@
+{
+  "name": "02-js-2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --collectCoverage=false JSAI.test.js",
+    "grade": "jest --useStderr --json --outputFile=./tests/result.json"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
