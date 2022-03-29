@@ -16,11 +16,11 @@ console.log(BinarioADecimal("10011"))
 
 /*          PASAR DE DECIMAL A BINARIO 
 (Se divide el numero decimal en 2 hasta que el residuo sea menor a 2, luego se cuentan los residuos de derecha a izquierda tomando el último numero como residual)
-       19
- 19 / 2 = 9 resto 1 ----> 1 
-  9 / 2 = 4 resto 1 ----> 1 
-  4 / 2 = 2 resto 0 ----> 0  
-  2 / 2 = 1 ------------> 1 
+                   19
+             19 / 2 = 9 resto 1 ----> 1 
+              9 / 2 = 4 resto 1 ----> 1 
+              4 / 2 = 2 resto 0 ----> 0  
+              2 / 2 = 1 ------------> 1 
 
 */
 function DecimalABinario(num){
