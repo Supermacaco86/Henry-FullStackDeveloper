@@ -4,28 +4,24 @@
 <h1 align="center"></h1>
 <h1 align="center">Prep Course</h1>
 
-#### Introducción
+## Introducción
 
-## Clases de Repaso (Henry Heroes)
+*Clases de Repaso (Henry Heroes)Estudiantes avanzados de la carrera resuelven los ejercicios en vivo en formato webinar.*
 
-Estudiantes avanzados de la carrera resuelven los ejercicios en vivo en formato webinar.
-
-Acá podés ver el [calendario](https://challenge.prep.soyhenry.com/calendar) de las clases y las grabaciones.
+*Acá podés ver el [calendario](https://challenge.prep.soyhenry.com/calendar) de las clases y las grabaciones.*
 
 ## Homeworks
 
-En este [link](https://github.com/soyHenry/Prep-Course/tree/main/) vas a encontrar el repositorio con las homeworks de cada unidad en su correspondiente carpeta.
+*En este [link](https://github.com/soyHenry/Prep-Course/tree/main/) vas a encontrar el repositorio con las homeworks de cada unidad en su correspondiente carpeta.*
 
 
 <h1 align="center"></h1>
 <h1 align="center">Módulo 1</h1>
 
-### Podes ver el contenido de todo el repositorio en formato web tipeando `npm install` y `npm start` e ingresando luego a <http://localhost:8080>
+*Podes ver el contenido de todo el repositorio en formato web tipeando `npm install` y `npm start` e ingresando luego a <http://localhost:8080>*
 
-<br>
-<br>
 
-#### Fundamentos de JavaScript
+## Fundamentos de JavaScript
 
 <div class="hide">
 
