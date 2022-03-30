@@ -6,9 +6,7 @@
 
 ## Introducción
 
-*Clases de Repaso (Henry Heroes)Estudiantes avanzados de la carrera resuelven los ejercicios en vivo en formato webinar.*
-
-*Acá podés ver el [calendario](https://challenge.prep.soyhenry.com/calendar) de las clases y las grabaciones.*
+*Clases de Repaso (Henry Heroes)Estudiantes avanzados de la carrera resuelven los ejercicios en vivo en formato webinar. Acá podés ver el [calendario](https://challenge.prep.soyhenry.com/calendar) de las clases y las grabaciones.*
 
 ## Homeworks
 
