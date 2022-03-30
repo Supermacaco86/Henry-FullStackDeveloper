@@ -22,5 +22,5 @@ Para lograr un aprendizaje significativo es necesario que el estudiante `aprenda
 <br> 
 <br> 
 <br> 
-<h3 align="center">Gracias!!!!  :rose:   XOXOXO
+<h3 align="center">Gracias!!!!  :rose:   XOXOXO</h3>
 <p align="center">
