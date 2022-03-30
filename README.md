@@ -32,6 +32,41 @@
 - [Algoritmos I](./Modulo1-Foundations/06-Algoritmos-I)
 - [Algoritmos II](./Modulo1-Foundations/07-Algoritmos-II)
 
+
+<h1 align="center"></h1>
+<h1 align="center">Modulo 2</h1>
+
+
+## Front-End
+
+- [01 - DOM avanzado](./01-DOM)
+- [02 - CSS Avanzado](./02-CSS)
+- [03 - ES6 - Selectores](./03-ES6)
+- [04 - AJAX](./04-Ajax)
+- [05 - Módulos & Bundlers](./05-Bundlers)
+
+---
+
+
+- React:
+    1. [Intro](./06-React-Intro)
+    3. [Estilos](./07-React-Estilos)
+    1. [Estados y LifeCycle](./08-React-Estado-LifeCycle)
+    2. [Routing (react-router)](./09-React-Routing)
+    4. [Formularios](./10-React-Forms)
+- Redux:
+    1. [Intro](./11-Redux)
+    2. [React-Redux](./12-React-Redux)
+
+
+Extra:
+
+- [React Hooks](./13-React-Hooks)
+
+
+
+
+
 </div >
 <br>
 <h1 align="center"></h1>
