@@ -18,9 +18,9 @@ Para lograr un aprendizaje significativo es necesario que el estudiante `aprenda
 <br> 
 <br> 
 <br> 
-<img src="https://github.com/Kapelu/Henry-FullStackDeveloper/blob/main/docs/frasePele.jpg?w=1200"/>
+<img src="./frasePele.jpg"/>
 <br> 
 <br> 
 <br> 
-<h3 align="center">Gracias!!!!  :rose:   XOXOXO</h3>
+<h3 align="center">Gracias!!!!  🌹   XOXOXO</h3>
 <p align="center">
