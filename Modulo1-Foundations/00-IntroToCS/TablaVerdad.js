@@ -1,14 +1,19 @@
 let a = 1 //' 1 = true, encendido'
 let b = 0 //' 0 = false, apagado'
 
-function tablaAnd(a,b){ 
-    return a && b  
-}
+function tablaAnd(a,b){return a && b}
+function tablaOr(a,b){ return a || b}
 
 console.log(`${a} y ${b} = ${tablaAnd(a,b)}`)
 console.log(`${b} y ${b} = ${tablaAnd(b,b)}`)
 console.log(`${b} y ${a} = ${tablaAnd(b,a)}`)
 console.log(`${a} y ${a} = ${tablaAnd(a,a)}`)
+
+
+console.log(`${a} y ${b} = ${tablaOr(a,b)}`)
+console.log(`${b} y ${b} = ${tablaOr(b,b)}`)
+console.log(`${b} y ${a} = ${tablaOr(b,a)}`)
+console.log(`${a} y ${a} = ${tablaOr(a,a)}`)
 
 /*
 A   B  = AND
