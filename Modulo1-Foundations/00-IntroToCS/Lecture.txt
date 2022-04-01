@@ -1,0 +1,33 @@
+// TABLA DE VERDAD
+
+0 = False
+1 = True
+
+// AND
+
+A   B  = AND
+1   0  =  0    
+0   0  =  0
+0   1  =  0
+1   1  =  1
+
+
+// OR
+
+A   B  =  OR
+1   0  =  1
+0   1  =  1
+1   1  =  1
+0   0  =  0
+
+
+// XOR - exclusive OR ( Es uno o el otro, no pueden ser ambos)
+
+A   B  =  OR
+1   1  =  0
+0   1  =  1
+1   0  =  1
+0   0  =  0
+
+Martina ó Belen-----> Martina y Belen (NO = false)--->[Este es exclusivo]
+Martina y/o Belen---> Martina y Belen (SI = true)
