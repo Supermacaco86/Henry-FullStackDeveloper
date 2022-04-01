@@ -1,45 +1,28 @@
-let a = 1 //' 1 = true, encendido'
-let b = 0 //' 0 = false, apagado'
+//$     ****   TABLAS DE LA VERDAD   ****
 
 function tablaAnd(a,b){return a && b}
 function tablaOr(a,b){ return a || b}
+function tablaNot(a,b){ return a != b}
+function tablaXor(a,b){return tablaOr(tablaAnd(a, !b), tablaAnd(!a, b))}
+let a = 1 , b = 0 
 
-console.log(`${a} y ${b} = ${tablaAnd(a,b)}`)
-console.log(`${b} y ${b} = ${tablaAnd(b,b)}`)
-console.log(`${b} y ${a} = ${tablaAnd(b,a)}`)
+//* Tabla AND
 console.log(`${a} y ${a} = ${tablaAnd(a,a)}`)
-
-
-console.log(`${a} y ${b} = ${tablaOr(a,b)}`)
-console.log(`${b} y ${b} = ${tablaOr(b,b)}`)
-console.log(`${b} y ${a} = ${tablaOr(b,a)}`)
+console.log(`${b} y ${b} = ${tablaAnd(b,b)}`)
+console.log(`${a} y ${b} = ${tablaAnd(a,b)}`)
+console.log(`${b} y ${a} = ${tablaAnd(b,a)}`)
+//* Tabla OR
 console.log(`${a} y ${a} = ${tablaOr(a,a)}`)
-
-/*
-A   B  = AND
-1   0  =  0    
-0   0  =  0
-0   1  =  0
-1   1  =  1*/
-
-
-/*
-
-// OR
-
-A   B  =  OR
-1   0  =  1
-0   1  =  1
-1   1  =  1
-0   0  =  0
-
-
-// XOR - exclusive OR ( Es uno o el otro, no pueden ser ambos)
-
-A   B  =  OR
-1   1  =  0
-0   1  =  1
-1   0  =  1
-0   0  =  0
-
-*/
+console.log(`${b} y ${b} = ${tablaOr(b,b)}`)
+console.log(`${a} y ${b} = ${tablaOr(a,b)}`)
+console.log(`${b} y ${a} = ${tablaOr(b,a)}`)
+//* Tabla NOT
+console.log(`${a} y ${b} = ${tablaNot(a,b)}`)
+console.log(`${b} y ${a} = ${tablaNot(b,a)}`)
+console.log(`${a} y ${b} = ${tablaNot(a,a)}`)
+console.log(`${b} y ${a} = ${tablaNot(b,b)}`)
+//* Tabla XOR
+console.log(`${a} y ${a} = ${tablaXor(a,a)}`)
+console.log(`${b} y ${b} = ${tablaXor(b,b)}`)
+console.log(`${a} y ${b} = ${tablaXor(a,b)}`)
+console.log(`${b} y ${a} = ${tablaXor(b,a)}`)

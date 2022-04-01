@@ -21,7 +21,7 @@ A   B  =  OR
 0   0  =  0
 
 
-// XOR - exclusive OR ( Es uno o el otro, no pueden ser ambos)
+// XOR - exclusive OR ( una salida verdadera resulta si una, y solo una de las entradas a la puerta es verdadera. Si ambas entradas son falsas o ambas son verdaderas, resulta en una salida falsa)
 
 A   B  =  OR
 1   1  =  0
@@ -31,3 +31,10 @@ A   B  =  OR
 
 Martina ó Belen-----> Martina y Belen (NO = false)--->[Este es exclusivo]
 Martina y/o Belen---> Martina y Belen (SI = true)
+
+// NOT (es la negacion de lo que tengo)
+
+A   NOT
+1    0
+0    1
+
