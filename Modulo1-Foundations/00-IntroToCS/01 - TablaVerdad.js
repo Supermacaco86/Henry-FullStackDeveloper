@@ -2,7 +2,7 @@
 * Tablas de la Vardad 
 * @param {Number} a = Vale Verdadero
 * @param {Number} b = Vale falso
-* @returns Condicion de a con respecto a b
+* @returns Condición de a con respecto a b
 */
 
 function tablaAnd(a,b){return a && b}
