@@ -32,12 +32,12 @@ En el Half Adder, ese rol de acarreo lo hace la puerta lógica AND (dice si hay 
 ?                                24 --->  11000
 ?                                ---------------
 ?                                43 ---> 101011
-                                         ||||||__ 1 AND 0 = 1(no hay acarreo); 1 XOR 0 = 1
-                                         |||||___ 1 AND 0 = 1(no hay acarreo); 1 XOR 0 = 1
-                                         ||||____ 0 AND 0 = 0(no hay acarreo); 0 XOR 0 = 0
-                                         |||_____ 0 AND 1 = 0(no hay acarreo); 0 XOR 1 = 1
-                                         ||______ 1 AND 1 = 1(hay acarreo); 1 XOR 1 = 0
-                                         |_______ Se agrega 0 y 1 AND 0 = 1
+                                         │││││└─> 1 AND 0 = 1(no hay acarreo); 1 XOR 0 = 1
+                                         ││││└──> 1 AND 0 = 1(no hay acarreo); 1 XOR 0 = 1
+                                         │││└───> 0 AND 0 = 0(no hay acarreo); 0 XOR 0 = 0
+                                         ││└────> 0 AND 1 = 0(no hay acarreo); 0 XOR 1 = 1
+                                         │└─────> 1 AND 1 = 1(hay acarreo); 1 XOR 1 = 0
+                                         └──────> Se agrega 0 y 1 AND 0 = 1
                                                 
 $  PASAR DE BINARIO A DECIMAL
 
@@ -82,39 +82,6 @@ $                       *************************************
  *           :) = 800  --> BINARIO ===> 11 00100000 --> 2 byte = Analogia UNICODE agregar 110 al primer bit y 10 al segundo bit ─┐
  * ┌──────────────────────────────── 11011 10001000 00 <─────────────────────────────────────────────────────────────────────────┘
  * └─── se pasa a 3 byte ─────────> 111011 10001000 1000 ├───> se cuenta de Izquierda a derecha para las posiciones de los bytes
-   
-
-
-                              
-                              
-                              
-                              
-                                                                                          
-                                                                                          
-                                                                                                                                                                                      
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-                                                                                           
-
-
-
+ 
 
 */
