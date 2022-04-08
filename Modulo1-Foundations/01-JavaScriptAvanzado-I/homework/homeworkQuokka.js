@@ -17,8 +17,3 @@ var c = function(a, b, c) {    // c es una funcion con otra funcion adentro.
 c(8,9,10)
 console.log(b)
 console.log(x)
-
-
-
-
-
