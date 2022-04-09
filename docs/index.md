@@ -1,7 +1,7 @@
 ```javascript
 const kapelusz = {
     name : 'Daniel Calderon',
-    henry: 'FT-25a',
+    henry: 'FT-25b',
      code: ['Javascript', 'HTML', 'CSS', 'NodeJS'],
     tools: ['Visual Studio Code','GitBash', 'GitHub'],
    github: 'https://github.com/Kapelu'
