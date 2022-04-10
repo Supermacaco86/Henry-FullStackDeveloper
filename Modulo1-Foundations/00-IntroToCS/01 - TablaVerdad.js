@@ -34,6 +34,4 @@ console.log(`${b} y ${a} = ${tablaXor(b,a)}`)
 
 
 
-//Modificado en ubuntu
-
-//sfgssasdss
+//Modificado en ubunt
