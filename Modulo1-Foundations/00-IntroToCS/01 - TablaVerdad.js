@@ -31,3 +31,8 @@ console.log(`${a} y ${a} = ${tablaXor(a,a)}`)
 console.log(`${b} y ${b} = ${tablaXor(b,b)}`)
 console.log(`${a} y ${b} = ${tablaXor(a,b)}`)
 console.log(`${b} y ${a} = ${tablaXor(b,a)}`)
+
+
+
+//Modificado en ubuntu
+
